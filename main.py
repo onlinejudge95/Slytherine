@@ -13,7 +13,7 @@ display_width = 800
 game_title = 'Slytherine'
 game_display = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption(game_title)
-icon = pygame.image.load('apple.png')
+icon = pygame.image.load('https://cloud.githubusercontent.com/assets/16643306/14881431/8886dafc-0d51-11e6-9e1a-22c6fa79110f.png')
 pygame.display.set_icon(icon)
 frames_per_second = 15
 block_size = 20
@@ -22,8 +22,8 @@ small_font = pygame.font.SysFont('comicsansms', 25)
 medium_font = pygame.font.SysFont('comicsansms', 50)
 large_font = pygame.font.SysFont('comicsansms', 75)
 apple_thickness = 30
-snake_head_image = pygame.image.load('snake_head.png')
-apple_image = pygame.image.load('apple.png')
+snake_head_image = pygame.image.load('https://cloud.githubusercontent.com/assets/16643306/14881420/73d19bba-0d51-11e6-8deb-0edf36bb267f.png')
+apple_image = pygame.image.load('https://cloud.githubusercontent.com/assets/16643306/14881431/8886dafc-0d51-11e6-9e1a-22c6fa79110f.png')
 
 
 def game_pause():
